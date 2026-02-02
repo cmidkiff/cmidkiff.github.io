@@ -1,3 +1,18 @@
 theme: jekyll-theme-minimal
-title: Caden's Homepage
-description: More coming soon!
+title: Caden Midkiff
+description: Personal website and portfolio
+
+# Site settings
+baseurl: ""
+url: "https://cmidkiff.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
