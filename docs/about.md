@@ -8,14 +8,7 @@ permalink: /about/
 
 Welcome to my personal page. I'm Caden Midkiff.
 
-## Background
-
-More details coming soon.
-
-## Interests
-
-- Technology
-- Software Development
+*In progress...*
 
 ---
 
