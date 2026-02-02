@@ -2,6 +2,9 @@ theme: jekyll-theme-minimal
 title: Caden Midkiff
 description: Personal website and portfolio
 
+# Hide GitHub profile link in sidebar
+show_downloads: false
+
 # Site settings
 baseurl: ""
 url: "https://cmidkiff.github.io"
