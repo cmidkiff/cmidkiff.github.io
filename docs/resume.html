@@ -1,0 +1,94 @@
+---
+layout: resume
+title: Résumé
+description: Software engineer at Salesforce working on distributed systems and observability, and pursuing technical AI safety.
+permalink: /resume/
+---
+<header class="resume-header">
+  <h1>Caden Midkiff</h1>
+  <p class="role">Software engineer</p>
+  <p class="summary">I’m a software engineer at Salesforce building distributed systems that process hundreds of billions of spans a day. My work spans streaming infrastructure, observability, and production reliability. I’m focused on applying that engineering experience to technical AI safety, including model evaluation and interpretability.</p>
+  <ul class="contact-links" aria-label="Professional contact">
+    <li><a href="mailto:cadenmidkiff32@gmail.com">cadenmidkiff32@gmail.com</a></li>
+    <li><a href="https://www.linkedin.com/in/caden-midkiff/">LinkedIn</a></li>
+  </ul>
+</header>
+
+<div class="resume-grid">
+  <div class="work-column">
+    <section aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <div class="career">
+        <article class="position">
+          <div class="position-heading"><h3>Salesforce</h3><p class="dates">2025–present</p></div>
+          <p class="job-title">Software Engineer (MTS)</p>
+          <ul>
+            <li>Operate a distributed tracing and observability platform ingesting <strong>400B+ spans per day</strong> from more than 1,000 instrumented services, consistently exceeding a 99.9% availability SLO.</li>
+            <li>Lead a zero-downtime migration of Flink streaming pipelines running on 1,000+ TaskManagers, owning capacity planning, performance tuning, and production troubleshooting.</li>
+            <li>Make high-cardinality telemetry queryable through storage and query modeling. Built APIs processing 100K+ spans per request with parallel Elasticsearch queries and performance testing.</li>
+            <li>Built MCP servers and CLI tools that enable AI agents to query and act on production telemetry.</li>
+            <li>Reduced platform cost through memory-optimized compute and infrastructure tradeoffs. Deploy Kubernetes workloads with Terraform and Spinnaker; serve as primary on-call with Grafana dashboards and alerting.</li>
+          </ul>
+          <p class="technologies">Java, Kafka, Flink, Kubernetes, Elasticsearch</p>
+        </article>
+        <article class="position">
+          <div class="position-heading"><h3>Deloitte</h3><p class="dates">2021–2024</p></div>
+          <p class="job-title">Application Developer</p>
+          <ul>
+            <li>Rearchitected a monolithic document-sharing application into a serverless, event-driven system on AWS, improving reliability and reducing hosting costs.</li>
+            <li>Built an ETL pipeline connecting SAP HANA to a business application and contributed to an internal eSignature API serving 10+ Deloitte applications.</li>
+          </ul>
+          <p class="technologies">C#, SQL Server, Node.js, AWS Lambda</p>
+        </article>
+        <article class="position">
+          <div class="position-heading"><h3>Garmin International</h3><p class="dates">May–Aug 2019</p></div>
+          <p class="job-title">Software Engineer Intern</p>
+          <p>Developed data-routing features for a safety-critical avionics system, contributing across the full software development lifecycle.</p>
+          <p class="technologies">C, Linux</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected AI &amp; ML projects</h2>
+      <p class="section-intro">Hands-on projects building my foundation for technical AI-safety work.</p>
+      <article class="project">
+        <h3>Mechanistic interpretability experiments</h3>
+        <p>Trained a GPT from scratch in PyTorch and explored attention visualization, head ablation, residual-stream extraction, and activation steering.</p>
+      </article>
+      <article class="project">
+        <h3>Local LLM MLOps platform</h3>
+        <p>Built an end-to-end pipeline with replayable Kafka ingestion, Flink stream cleaning, and a Parquet data lake. Fine-tuned Qwen2.5-1.5B with LoRA, tracked experiments and models in MLflow, and served the model through vLLM and a streaming FastAPI gateway.</p>
+        <p class="technologies">PyTorch, Kubernetes, SkyPilot, Prometheus, Grafana</p>
+      </article>
+    </section>
+  </div>
+
+  <aside class="details-column" aria-label="Skills and education">
+    <section aria-labelledby="skills-title">
+      <h2 id="skills-title">Technical toolkit</h2>
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <p>Java, Go, Python, SQL, JavaScript / TypeScript, C#, C / C++</p>
+      </div>
+      <div class="skill-group">
+        <h3>Distributed systems</h3>
+        <p>Kafka, Flink, Elasticsearch, Kubernetes, Docker, AWS, Terraform, Spinnaker</p>
+      </div>
+      <div class="skill-group">
+        <h3>Data &amp; observability</h3>
+        <p>Grafana, Prometheus, PostgreSQL, Druid, DuckDB, Parquet</p>
+      </div>
+      <div class="skill-group">
+        <h3>ML &amp; agent tooling</h3>
+        <p>PyTorch, LoRA fine-tuning, MLflow, vLLM, MCP servers</p>
+      </div>
+    </section>
+    <section class="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <h3>Arizona State University</h3>
+      <p>B.S. in Computer Science<br>2021</p>
+      <p>Summa Cum Laude<br>4.0 GPA</p>
+    </section>
+  </aside>
+</div>
