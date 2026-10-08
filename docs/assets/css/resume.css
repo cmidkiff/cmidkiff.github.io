@@ -49,8 +49,6 @@ p { margin-bottom: .9rem; }
 strong { font-weight: 650; }
 .technologies { color: var(--muted); font-size: .9rem; line-height: 1.65; margin-bottom: 0; }
 .projects { margin-top: 3rem; }
-.projects h2 { margin-bottom: .65rem; }
-.section-intro { color: var(--muted); margin-bottom: 1.7rem; }
 .project { margin-bottom: 1.7rem; }
 .project h3 { margin-bottom: .5rem; }
 .details-column { font-size: .95rem; }
@@ -83,7 +81,6 @@ strong { font-weight: 650; }
   .dates { margin-bottom: .3rem; }
   .details-column { grid-template-columns: 1fr; gap: 1.3rem; }
   .page-footer { display: block; }
-  .page-footer span { display: block; margin-top: .75rem; }
 }
 @media print {
   @page { size: A4; margin: 15mm; }
@@ -110,7 +107,6 @@ strong { font-weight: 650; }
   .position p, .position li, .project, .skill-group, .education { break-inside: avoid; }
   .projects { break-before: page; margin-top: 0; }
   .project { margin-bottom: 11pt; }
-  .section-intro { margin-bottom: 12pt; }
   .details-column { display: grid; grid-template-columns: 2fr 1fr; gap: 20pt; font-size: 9pt; border-top: 1px solid #bbb; margin-top: 15pt; padding-top: 12pt; }
   .details-column h3 { font-size: 10pt; }
   .skill-group { margin-bottom: 8pt; }
